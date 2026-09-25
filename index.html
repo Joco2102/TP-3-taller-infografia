@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evolución de los Algoritmos</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&family=Figtree:wght@400;500;600;700&family=Chakra+Petch:wght@600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<button class="logo" id="logo" title="Volver al inicio" aria-label="Volver al inicio"></button>
+
+<div class="barra" id="barra">
+  <span class="rotulo">Explorados</span>
+  <div class="hitos" id="hitos"></div>
+  <div class="riel"><i id="relleno"></i></div>
+  <span class="cuenta" id="cuenta">0/9 Conceptos Explorados</span>
+</div>
+
+<div class="tapa">
+
+  <div class="intro">
+    <p class="rubro">Orígenes de la IA</p>
+    <h1>Evolución de los algoritmos</h1>
+    <p class="bajada">De reglas diseñadas por humanos<br>a sistemas capaces de aprender<br>y crear nuevos algoritmos</p>
+  </div>
+
+  <div class="final">
+    <h1>¿Qué cambió?</h1>
+    <p class="bajada">Los algoritmos no dejaron de seguir instrucciones.<br>Cambió la forma en que esas instrucciones pueden construirse y utilizarse.</p>
+    <ol class="cadena">
+      <li>Reglas</li><li>Datos</li><li>Aprendizaje</li>
+      <li>Patrones</li><li>Predicción</li><li>Generación</li>
+    </ol>
+    <p class="pregunta">¿Qué cambia cuando dejamos de decirle al algoritmo exactamente qué hacer y empezamos a enseñarle con datos?</p>
+    <p class="guiño">Tocá los nodos para descubrir sus conexiones. No hay un recorrido único.</p>
+  </div>
+
+  <div class="escena">
+    <div class="cerebro" id="cerebro">
+      <svg id="malla" viewBox="0 0 617 563" role="img"
+           aria-label="Cerebro dibujado como una red de nodos. Tocalo para empezar."></svg>
+      <button class="remapa" id="remapa">&#8635; Volver al mapa</button>
+    </div>
+  </div>
+
+</div>
+
+<p class="pie" id="pie">Hacé clic en el cerebro</p>
+
+<svg id="cables" aria-hidden="true"></svg>
+
+<button class="salir" id="salir" title="Dejar de navegar" aria-label="Dejar de navegar">
+  <svg viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19"/></svg>
+</button>
+
+<div id="ventanas"></div>
+
+<script src="imagenes.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
